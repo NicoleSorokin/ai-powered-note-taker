@@ -1,0 +1,16 @@
+{
+  "prompt": {
+    "meeting_title": "Above is a transcript of a meeting. What is the title of this meeting? Only extract the meeting title, do not include any other information. Make it as concise as possible.",
+    "meeting_type": "Above is a transcript of a meeting. What type of meeting was this? Only extract the meeting type, do not include any other information. Make it as concise as possible.",
+    "lecture_title": "Above is a transcript of a university lecture. What is the title of this lecture? Only extract the lecture title, do not include any other information. Make it as concise as possible.",
+    "lecture_type": "Above is a transcript of a university lecture. What type of lecture was this? Only extract the lecture type, do not include any other information. Make it as concise as possible.",
+    "general_summary": "Please clean up the transcription above. Remove any unnecessary information, remove any information that is not relevant to the content and removing information that is repeated or redundant. Do not make a concise summary, just extract as much relevant information as possible in a way that can be understood by a user that does not know the context. Do not structure it as a list, just extract as much relevant information as possible.",
+    "concise_notes": "Please create a concise notes, in a markdown format, from the summary of the transcription above. Make the notes length proprtionate to the length of the recording. Extract as much relevant information as possible in a way that can be understood by a user that does not know the context. Make a bullet point list with headings where appropriate.",
+    "transcription": "Please transcribe the audio file as accuretly as possible. Assume that there might be multiple speakers in the audio file. Try to identify those multiple speakers."
+  },
+  "role": {
+    "default": "You are a helpful assistant.",
+    "extractor": "You are an efficient assistant skilled in summarizing transcriptions and generating concise notes. Extract key points, action items, and important discussions.",
+    "processor": "You are an efficient assistant skilled in summarizing transcriptions and generating concise notes. Extract key points, action items, and important discussions."
+  }
+}

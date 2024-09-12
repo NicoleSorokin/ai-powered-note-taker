@@ -1,0 +1,35 @@
+/* styles.css */
+
+body {
+  font-family: 'Verdana', sans-serif; /* Set a default font for the body */
+}
+
+h1 {
+  font-family: 'Verdana', serif; /* Set a different font for headings */
+  color: #000000; /* Set a color for headings */
+}
+
+button {
+  font-family: 'Verdana', sans-serif; /* Set a font for buttons */
+  background-color: #007bff; /* Set a background color */
+  color: white; /* Set the text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #6c757d; /* Set a background color for disabled buttons */
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #4d84c0; /* Change background color on hover */
+}
+
+.error {
+  color: red; /* Style for error messages */
+  font-size: 14px;
+}
